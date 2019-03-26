@@ -1,0 +1,85 @@
+body{
+    color: rgba(255, 255, 255, 0.788);
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    overflow: hidden;
+    background-color:#F67280;
+    position:fixed;
+    top: 0%;
+    width: 100%;
+
+}
+
+.nav-wrapper li{
+    display: inline;
+    
+}
+
+.nav-wrapper a{
+    color: rgba(255, 255, 255, 0.788);
+    text-decoration: none;
+    padding: 14px 16px;
+    float: center;
+}
+
+.nav-wrapper a:hover{
+    background-color: #111;
+
+}
+
+img{
+    width: 100%;
+}
+
+.column:hover{
+    opacity: 0.3;
+}
+
+div{
+    padding: 3%;
+    margin: 1%;
+}
+
+.column{
+    float: left;
+    width: 30%;
+    padding: 3px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.bg{
+    background-image: url("https://www.fujixpassion.com/wp-content/uploads/2018/04/20.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 51%;
+}
+
+.des{
+    float: left;
+
+}
+
+.desimg{
+    width: 70%;
+}
+
+.para{
+    width: 30%;
+    color: black;
+}
+
+
+
