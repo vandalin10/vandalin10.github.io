@@ -5,11 +5,12 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 5%;
 }
 
 nav{
     overflow: hidden;
-    background-color:#F67280;
+    background-color:#82A8BA;
     position:fixed;
     top: 0%;
     width: 100%;
@@ -29,7 +30,7 @@ nav{
 }
 
 .nav-wrapper a:hover{
-    background-color: #111;
+    background-color: #72828C;
 
 }
 
@@ -42,7 +43,7 @@ img{
 }
 
 div{
-    padding: 3%;
+    padding: 1%;
     margin: 1%;
 }
 
@@ -63,23 +64,43 @@ div{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    padding: 51%;
+    width: 140%;
+    padding: 30.6%;
+    margin: -6%; 
 }
 
 .des{
     float: left;
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .desimg{
-    width: 70%;
+    width: 80%;
+    margin: 0%;
 }
 
 .para{
-    width: 30%;
-    color: black;
+    height: 100%;
+    width: 35%;
+    color: #72828C;
+    margin: 0;
+    display: inline-block;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 13pt;
 }
 
-
-
+span{
+    color: #303D4A;
+    font-size: 15pt;
+}
