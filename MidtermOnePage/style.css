@@ -1,0 +1,141 @@
+body{
+    color: rgba(255, 255, 255, 0.788);
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    
+}
+
+nav{
+    overflow: hidden;
+    background-color:#82A8BA;
+    position:fixed;
+    top: 0%;
+    width: 100%;
+
+}
+
+.nav-wrapper li{
+    display: inline;
+    
+}
+
+.nav-wrapper a{
+    color: rgba(255, 255, 255, 0.788);
+    text-decoration: none;
+    padding: 14px 16px;
+    float: center;
+}
+
+.nav-wrapper a:hover{
+    background-color: #72828C;
+}
+
+.nav-wrapper a{
+    font-size: 13pt;
+}
+
+img{
+    max-width: 120%;
+    margin-bottom: 5px;
+
+}
+
+.row {
+    margin: 10px;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;   
+    justify-content: center;
+}
+
+.column{
+    float: left;
+    width: 35%;
+    padding: 5px;
+
+}
+
+div{
+    padding: 5%;
+    margin: 5%;
+}
+
+.column:hover{
+    opacity: 0.3;
+}
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        /* background-color: lightyellow; */
+        margin: 1%;
+    }
+    img {
+        max-width: 150%;
+        margin-bottom: 5px;
+    }
+    .row {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;   
+    }
+
+    .column{
+        float: left;
+        width: 40%;
+        padding: 5px;
+    }
+
+    div{
+        padding: 6%;
+        margin: 6%;
+    }
+
+    .nav-wrapper a{
+        font-size: 11pt;
+    }
+
+} 
+
+@media only screen and (min-width: 1000px) {
+    body {
+        /* background-color: lightblue; */
+        margin: 5%;
+    }
+    
+    img {
+        max-width: 100%;
+        margin-bottom: 5px;
+    }
+    
+    .row{
+        display: inline-block;
+        flex-wrap: wrap;
+        flex-direction: row; 
+        display: flex;
+        justify-content: center;   
+    }
+
+    .column{
+        float: left;
+        width: 30%;
+        padding: 5px;
+    }
+
+    div{
+        padding: 1%;
+        margin: 1%;
+    }
+
+    .nav-wrapper a{
+        font-size: 15pt;
+    }
+
+    
+}
