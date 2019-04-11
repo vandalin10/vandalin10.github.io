@@ -1,0 +1,51 @@
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'header header header header'
+    'bora hyorin soyou dasom'
+    'bleft bleft bright bright';
+    background-color: lightblue;
+    grid-gap: 10px;
+    /* text-align: center; */
+    padding: 20px;
+}
+
+.grid-container div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.header { 
+    grid-area: header;
+}
+
+.bora { 
+    grid-area: bora;
+}
+
+.hyorin { 
+    grid-area: hyorin;
+}
+
+.soyou { 
+    grid-area: soyou;
+}
+
+.dasom { 
+    grid-area: dasom;
+}
+
+.bleft { 
+    grid-area: bleft; 
+}
+
+.bright { 
+    grid-area: bright; 
+}
+
+
+img{
+    width: 100%;
+}
