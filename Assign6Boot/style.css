@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    background-color: lightblue;
+    grid-gap: 10px;
+    /* text-align: center; */
+    padding: 20px;
+    width: 97.5%;
+}
+
+.row{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.col{
+    float: left;
+    width: 23.5%;
+    padding: 10px;
+}
+
+.col2{
+    float: left;
+    width: 48.4%;
+    padding: 10px;
+}
+
+img{
+    width: 100%;
+}
