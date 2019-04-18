@@ -3,7 +3,7 @@ function squareNum(){
     var result = num*num;
     console.log('The result of squaring the number ' + num + ' is ' + result);
     solution.innerText = 'The result of squaring the number ' + num + ' is ' + result;
-    return result;
+    // return result;
 }
 
 var squareButton = document.getElementById('square-button');
@@ -15,7 +15,7 @@ function halfNum(){
     var result = num/2;
     console.log('Half of ' + num + ' is ' + result);
     solution.innerText = 'Half of ' + num + ' is ' + result;
-    return result;
+    // return result;
 }
 
 var halfButton = document.getElementById('half-button');
@@ -28,7 +28,7 @@ function percentOf(){
     var result = num1/(num2*0.01) + '%';
     console.log(num1 + ' is ' + result + ' of ' + num2);
     solution.innerText = num1 + ' is ' + result + ' of ' + num2;
-    return result;
+    // return result;
 }
 
 var percentButton = document.getElementById('percent-button');
@@ -40,7 +40,7 @@ function areaOfCircle(){
     var result = Math.PI*r*r;
     console.log('The area for a circle with a radius of ' + r + ' is ' + result);
     solution.innerText = 'The area for a circle with a radius of ' + r + ' is ' + result;
-    return result;
+    // return result;
 }
 
 var areaButton = document.getElementById('area-button');
