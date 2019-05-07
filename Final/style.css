@@ -1,0 +1,33 @@
+body{
+	background-color: #02020D;
+}
+nav{
+	border-bottom: 5px solid #730220;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+.navbarlinks{
+	color:white;
+	font-size:18px;
+}
+
+.navbarlinks:hover{
+	color: #730220;
+	font-size:18px;
+}
+
+h2{
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal; 
+} 
+
+.anchor{
+	display: block;
+	height:125px;
+	margin-top:-125px;
+	visibility:hidden;
+}
+
